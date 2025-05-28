@@ -22,8 +22,8 @@ El fin de este proyecto está en mostrar de una manera *infográfica* la trayect
 | ------------- |:-------------:| -----:|
 | South China Morning Post      | Gráfica y Narrativa | https://pudding.cool/2024/03/greatest-music/  |
 | Pudding      | Storytelling de los álbumes     |   https://pudding.cool/2025/04/music-dna/ |
-| National Geographic | Infografías     |  https://www.nationalgeographic.com/ |
-| Flourish | Gráficos interactivos     |  https://flourish.studio/ |
+| National Geographic | Infografías     |  https://pudding.cool/2024/03/greatest-music/ |
+| Flourish | Gráficos interactivos     |  https://pudding.cool/2023/10/genre/|
 
 
 
