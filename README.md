@@ -20,8 +20,8 @@ El fin de este proyecto está en mostrar de una manera *infográfica* la trayect
 
 | **_FUENTE_**        | **_TIPO DE REFERENCIA_**           | **_ENLACE_** |
 | ------------- |:-------------:| -----:|
-| South China Morning Post      | Gráfica y Narrativa | https://www.scmp.com/infographics  |
-| Pudding      | Storytelling      |   https://pudding.cool/ |
+| South China Morning Post      | Gráfica y Narrativa | https://pudding.cool/2024/03/greatest-music/  |
+| Pudding      | Storytelling de los álbumes     |   https://pudding.cool/2025/04/music-dna/ |
 | National Geographic | Infografías     |  https://www.nationalgeographic.com/ |
 | Flourish | Gráficos interactivos     |  https://flourish.studio/ |
 
