@@ -18,12 +18,13 @@ El fin de este proyecto está en mostrar de una manera *infográfica* la trayect
 
 ## Referencias e Inspiración
 
-| **_FUENTE_**        | **_TIPO DE REFERENCIA_**           | **_ENLACE_** |
-| ------------- |:-------------:| -----:|
-| South China Morning Post      | Gráfica y Narrativa | https://pudding.cool/2024/03/greatest-music/  |
-| Pudding      | Storytelling de los álbumes     |   https://pudding.cool/2025/04/music-dna/ |
-| Pudding | Infografías     |  https://pudding.cool/2024/03/greatest-music/ |
-| Pudding | Gráficos interactivos     |  https://pudding.cool/2023/10/genre/|
+| **_FUENTE_**        | **_DESCRIPCIÓN_**           | **_ENLACE_**       | **_ASPECTOS POSITVOS_**      | **_ASPECTOS NEGATIVOS_**      |
+| ------------- |:-------------:| -----:|-----:|-----:|
+| South China Morning Post      | Gráfica y Narrativa | https://pudding.cool/2024/03/greatest-music/  |  -Paso de portada a la info interesante -Inspiración para disponer los álbumes que más resuenan | Demasiada info dispuesta en imágenes|
+| Coldplay |Visuales| https://sustainability.coldplay.com/ | Gráfica acorde el último álbum de colplay| Fome de interactuar|
+| Pudding      | Storytelling de los álbumes     |   https://pudding.cool/2025/04/music-dna/ | Interacción auditiva de los albumes | Disposición vertical desaprovechada |
+| Pudding | Infografías     |  https://pudding.cool/2024/03/greatest-music/ | Atractivo visualmente sin saturación de información escrita| 
+| Pudding | Gráficos interactivos     |  https://pudding.cool/2023/10/genre/| Gráficos claros e interctivos | Click para avanzar es molesto |
 
 
 
