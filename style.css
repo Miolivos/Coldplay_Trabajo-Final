@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Lexend+Deca:wght@100..900&display=swap');
+
+[data-theme="light"] { --color-bg: #eceff1; --color-fg: #263238; }
+
+[data-theme="dark"] { --color-bg: #263238; --color-fg: #eceff1; }
+
+* { margin: 0; padding: 0; }
+
+:root{
+  --colorprincipal: #ffffff;
+  --colorsecundario:#e5f5e0;
+  --colorterciario:#31a354;
+}
+
+body { 
+    font-family: 'Jost', sans-serif; 
+    color: var(--color-fg); 
+    background: var(--colorprincipal); 
+    text-align: center;
+}
+
+
+header, main, footer { 
+    padding: 1% 10%; 
+    width: min(100%, 900px); 
+    margin: 0 auto; 
+    text-align: center; 
+    background: lightgoldenrodyellow;
+}  
+
+
+.coldplayportad{
+    margin: 0 auto;
+    opacity: .7;
+    pointer-events: none;
+    max-width: 1280px;
+    padding-top: 110px;
+    -o-object-fit: none;
+    object-fit: none;
+    -o-object-position: top center;
+    object-position: top center;
+    height: 900px;
+    width: 100%;
+
+}
+
+figure{
+    margin:1% -10%;
+}
+
+figure img{
+    width:100%;
+}
+
+figure figcaption{
+    margin:1% 8%;
+}
+
+header{
+    margin-top:2rem;
+}          
+
+footer{
+    margin-bottom:2rem;
+}  
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+
+h3{
+    margin-top:3rem;
+}
