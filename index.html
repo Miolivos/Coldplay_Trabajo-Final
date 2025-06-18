@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coldplay - Más allá de la música</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <img class="hero-bg" src="cold 1.png" alt="Background" />
+    
+    <h1 class="title">COLDPLAY</h1>
+    <h2 class="subtitle">MÁS ALLÁ DE LA MÚSICA</h2>
+    <p class="author">Por Mónica Olivos</p>
+
+   <div class="player-container">
+        <button id="playPauseButton" class="play-button">
+            <span id="buttonText">► PLAY</span>
+        </button>
+
+        <audio id="mySong" src="human heart.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+
+    <p class="description">
+      Desde sus comienzos hasta sus giras ecológicas, esta página es un homenaje a lo que hace de Coldplay algo más que una banda.
+    </p>
+
+    <div class="images">
+      <img src="cris.png" alt="integrante 1" />
+      <img src="jonny.png" alt="integrante 2" />
+      <img src="will.png" alt="integrante 3" />
+      <img src="guy.png" alt="integrante 4" />
+    </div>
+
+    <h2 class="integrantes-title">INTEGRANTES</h2>
+
+    <div class="integrantes">
+      <div class="nombre">Cris<br>Martin</div>
+      <div class="nombre">Jonny<br>Buckland</div>
+      <div class="nombre">Will<br>Champion</div>
+      <div class="nombre">Guy Berryman</div>
+    </div>
+  </div>
+
+      
+    <h2 class="albumes-title">ALBUMES</h2>
+
+      <figure>
+      <p>Desde los pasillos universitarios de Londres hasta los escenarios más grandes del planeta, Chris Martin, Jonny Buckland, Guy Berryman y Will Champion han recorrido un camino único, lleno de emoción, experimentación y compromiso. Todo empezó en el año 2000 con Parachutes...</p>
+          <img src="imagenes/imagen2.png" alt="albumes">
+          <figcaption>Pequeño texto</figcaption>
+      </figure>
+      
+        
+
+  </main>
+  <footer>
+  Desarrollo Web y Diseño Visual de Información - Diseño Integral UC - Miolivos
+  </footer>
+
+<script>
+            async function datos() {
+                const consulta = await fetch("https://raw.githubusercontent.com/Miolivos/Coldplay_Trabajo-Final/refs/heads/main/coldplay.json");
+                const data = await consulta.json();
+                console.log(data);
+            }
+            datos().catch((error) => console.error(error));
+        </script>
+</body>
+</html>
