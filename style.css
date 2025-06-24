@@ -1,0 +1,272 @@
+/* Importación de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales para body y html */
+body, html {
+    cursor: none; /* Para tu cursor personalizado */
+    background: white; /* Ahora el fondo global es blanco */
+    font-family: 'Josefin Sans', sans-serif;
+    color: white; /* Color de texto por defecto para elementos no especificados */
+    overflow-x: hidden; /* Evita el scroll horizontal en toda la página */
+    /* Eliminamos height: 100%; para permitir el scroll vertical */
+}
+
+/* Cursor personalizado */
+.custom-cursor {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(249, 225, 102, 1);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: width 0.1s ease-out, height 0.1s ease-out, background-color 0.1s ease-out;
+    z-index: 9999;
+    mix-blend-mode: difference;
+}
+
+.custom-cursor.hovering {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 40px;
+    height: 40px;
+}
+
+/* Contenedor principal que envuelve TODO el contenido visual */
+.page-wrapper {
+    position: relative; /* CRUCIAL: todos los elementos 'absolute' se posicionan con respecto a este */
+    width: 1440px; /* Ancho fijo para tu diseño */
+    height: auto; /* Permite que el contenido se extienda verticalmente */
+    margin: 0 auto; /* Centra el contenedor en la pantalla */
+    background: white; /* El fondo de tu contenido principal */
+    overflow-x: hidden; /* Previene el scroll horizontal en el wrapper */
+}
+
+.hero-bg {
+    position: absolute;
+    height: 100vh; /* Ajustado de 108vh a 100vh para que ocupe la pantalla completa */
+    width: 100%;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.title {
+    position: absolute;
+    top: 427px; /* Mantener si está bien posicionado en la portada */
+    left: 362px;
+    font-size: 128px;
+    font-weight: 700;
+    color: #F9E166;
+    z-index: 2;
+}
+
+.subtitle {
+    position: absolute;
+    top: 547px; /* Mantener */
+    left: 408px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9E166;
+    mix-blend-mode: difference;
+    z-index: 2;
+}
+
+.author {
+    position: absolute;
+    top: 783px; /* Mantener */
+    left: 578px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #F9E166;
+    mix-blend-mode: difference;
+    z-index: 2;
+}
+
+/* Contenedor del botón de play */
+.player-container {
+    position: absolute;
+    top: 139px; /* Mantener si está bien en la portada */
+    left: 666px;
+    z-index: 2;
+}
+
+.description {
+    position: absolute;
+    top: 900px; /* Reducido de 945px; para que aparezca más cerca del final de la portada */
+    left: 1049px;
+    width: 353px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    z-index: 2;
+}
+
+/* Sección de Integrantes (Imágenes de los integrantes) */
+.images {
+    position: absolute;
+    top: 1100px; /* AJUSTE CRÍTICO: Reducido drásticamente. Necesitas que esto esté justo debajo de tu primera sección.
+                  Si tu hero-bg mide 100vh, el siguiente contenido debería empezar alrededor de 100vh o 1000px si 1vh ~ 10px.
+                  Ajusta este valor y los siguientes para que se agrupen de forma lógica. */
+    left: 0;
+    display: flex;
+    gap: 6px;
+    width: 100%;
+    justify-content: center;
+    opacity: 0.67;
+    mix-blend-mode: luminosity;
+    z-index: 2;
+}
+
+/* Título "INTEGRANTES" */
+.integrantes-title {
+    position: absolute;
+    top: 1000px; /* AJUSTE CRÍTICO: Debe estar por encima o al lado de las imágenes de integrantes */
+    left: 48px;
+    font-size: 128px;
+    font-weight: 700;
+    color: #F9E166;
+    z-index: 2;
+}
+
+/* Nombres de los integrantes */
+.integrantes {
+    position: absolute;
+    top: 1600px; /* AJUSTE CRÍTICO: Debajo de las imágenes de los integrantes */
+    left: 12px;
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    width: calc(100% - 24px);
+    padding: 0 12px;
+    z-index: 2;
+}
+
+/* Cajas de información de los miembros (debajo de los nombres) */
+.member-info-box {
+    width: 323px;
+    height: 208px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(248.63, 225.09, 101.52, 0.25) 100%);
+    overflow: hidden;
+    border-radius: 16px;
+    backdrop-filter: blur(16px);
+    z-index: 2;
+}
+
+/* Ajustes de posición para cada caja de miembro */
+.member-info-box-1 { left: 31px; top: 1700px; } /* AJUSTE CRÍTICO: Debe estar debajo de los nombres */
+.member-info-box-2 { left: 729px; top: 1700px; }
+.member-info-box-3 { left: 380px; top: 1700px; }
+.member-info-box-4 { left: 1078px; top: 1695px; height: 168px; }
+
+/* Título de Álbumes */
+.albums-main-title {
+    width: 504px;
+    height: 576px;
+    left: 25px;
+    top: 2000px; /* AJUSTE CRÍTICO: Debería ir después de la sección de integrantes. */
+    position: absolute;
+    color: #F9E166;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 158px;
+    word-wrap: break-word;
+    z-index: 2;
+}
+
+/* Párrafo introductorio central */
+.central-intro-paragraph {
+    width: 1012px;
+    left: 214px;
+    top: 2000px; /* AJUSTE CRÍTICO: Alrededor del mismo 'top' que el título de álbumes, o un poco más arriba/abajo para el layout */
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+    z-index: 2;
+}
+
+/* Cajas de fondo con blur para álbumes */
+.album-blur-background {
+    width: 679px;
+    height: 679px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 245.41, 195.03, 0.25) 0%, rgba(255, 215.13, 5.80, 0.25) 100%);
+    backdrop-filter: blur(16px);
+    z-index: 0;
+}
+.album-blur-background-1 {
+    left: 380px;
+    top: 2100px; /* AJUSTE CRÍTICO: Debe estar en la sección de álbumes */
+}
+.album-blur-background-2 {
+    left: 1059px;
+    top: 2100px; /* AJUSTE CRÍTICO: Debe estar en la sección de álbumes */
+}
+
+/* Contenedor del Carrusel de Álbumes */
+.album-images-carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    height: 640px;
+    gap: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 0px;
+    top: 2500px; /* AJUSTE CRÍTICO: Este es el más importante para el carrusel.
+                  Debe ir DEBAJO del título "ÁLBUMES" y los fondos de blur.
+                  Si el título está en 2000px y los blurs en 2100px, 2500px está bien para que el carrusel quede debajo.
+                  PRUEBA y AJUSTA ESTE VALOR con las Herramientas de Desarrollador. */
+    z-index: 1;
+}
+
+/* Ocultar la barra de desplazamiento para navegadores WebKit (Chrome, Safari) */
+.album-images-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+/* Estilo para cada imagen dentro del carrusel */
+.album-images-carousel img.album-cover-img {
+    flex: 0 0 auto;
+    width: 640px;
+    height: 640px;
+    object-fit: cover;
+    scroll-snap-align: start;
+    opacity: 0.67;
+    mix-blend-mode: luminosity;
+    /* NO 'position: absolute;' ni 'left' aquí */
+}
+
+/* Pequeñas cajas amarillas */
+.small-yellow-box {
+    width: 91px;
+    height: 77px;
+    position: absolute;
+    background: #F9E166;
+    z-index: 2;
+}
+.small-yellow-box-1 {
+    left: 104px;
+    top: 3200px; /* AJUSTE CRÍTICO: Probablemente quieras que esto vaya después del carrusel. */
+}
+.small-yellow-box-2 {
+    left: 209px;
+    top: 3200px; /* AJUSTE CRÍTICO: Probablemente quieras que esto vaya después del carrusel. */
+}
