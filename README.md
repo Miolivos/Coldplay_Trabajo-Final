@@ -5,9 +5,7 @@
 El fin de este proyecto está en mostrar de una manera *infográfica* la trayectoria musical del grupo británico de pop-rock **_Coldplay_** y el mensaje que logra transmitir la banda al público que lo sigue. Por esta razón el contenido de este proyecto se centrará en:
 * Los miembros de la banda que la componen
 * Historia y evolución de su discografía
-* Sentido de algunas de sus letras más profundas
 * Los shows más icónicos que han logrado
-* Compromiso con la sustentabilidad a través de los años.
 
 ## Fuente de los datos
 
