@@ -1,0 +1,121 @@
+{
+  "canciones": [
+    {
+      "titulo": "Yellow",
+      "album": "Parachutes",
+      "tematica": "Amor incondicional; la palabra \"yellow\" representa la luz, calidez y esperanza."
+    },
+    {
+      "titulo": "Viva la Vida",
+      "album": "Viva la Vida or Death and All His Friends",
+      "tematica": "Caída del poder, redención, culpa y ciclos históricos de violencia."
+    },
+    {
+      "titulo": "Clocks",
+      "album": "A Rush of Blood to the Head",
+      "tematica": "Lucha contra el tiempo, ansiedad existencial y decisiones difíciles."
+    },
+    {
+      "titulo": "Trouble",
+      "album": "Parachutes",
+      "tematica": "Culpa, autocrítica, remordimiento frente a errores cometidos en una relación."
+    },
+    {
+      "titulo": "Midnight",
+      "album": "Ghost Stories",
+      "tematica": "Sentimiento de soledad y desconexión interior; búsqueda de identidad en momentos oscuros."
+    },
+    {
+      "titulo": "Magic",
+      "album": "Ghost Stories",
+      "tematica": "Resiliencia emocional tras una ruptura, y el poder del amor persistente."
+    },
+    {
+      "titulo": "Arabesque",
+      "album": "Everyday Life",
+      "tematica": "Unidad y crítica social, con un enfoque en la violencia racial y las fronteras culturales."
+    },
+    {
+      "titulo": "Everyday Life",
+      "album": "Everyday Life",
+      "tematica": "Humanismo, empatía y reflexión sobre la desigualdad y el estado del mundo."
+    },
+    {
+      "titulo": "A Sky Full of Stars",
+      "album": "Ghost Stories",
+      "tematica": "Amor como luz que brilla en medio de la oscuridad; mezcla entre devoción y pérdida."
+    },
+    {
+      "titulo": "All I Can Think About Is You",
+      "album": "Kaleidoscope EP",
+      "tematica": "Caos mental y deseo de escapar a través del amor."
+    }
+  ],
+  "eventos": [
+    {
+      "lugar": "Live in Buenos Aires",
+      "año": 2017,
+      "descripcion": "Cierre de la gira A Head Full of Dreams, incluye la inédita Amor Argentina y homenaje con De Música Ligera de Soda Stereo."
+    },
+    {
+      "lugar": "Coldplay en Chile (Estadio Nacional)",
+      "año": 2022,
+      "descripcion": "Gira sustentable con energía renovable, pulseras LED biodegradables, plataformas cinéticas y bicicletas generadoras de energía."
+    },
+    {
+      "lugar": "Music of the Spheres World Tour",
+      "año": "2022–2025",
+      "descripcion": "Gira sustentable con energía renovable, pulseras LED biodegradables, plataformas cinéticas y bicicletas generadoras de energía."
+    },
+    {
+      "lugar": "Super Bowl Halftime Show (EE.UU.)",
+      "año": 2016,
+      "descripcion": "Show junto a Beyoncé y Bruno Mars; mensaje de unidad, paz y celebración del amor."
+    },
+    {
+      "lugar": "Glastonbury Festival (UK)",
+      "año": "2002 / 2011 / 2016 / 2021 (virtual)",
+      "descripcion": "Reconocidos por actuaciones enérgicas, visuales espectaculares y conexión profunda con el público."
+    },
+    {
+      "lugar": "Live 8 (Londres)",
+      "año": 2005,
+      "descripcion": "Participación en el concierto benéfico global para combatir la pobreza; interpretaron Fix You con Richard Ashcroft."
+    },
+    {
+      "lugar": "MTV Unplugged Alemania",
+      "año": 2000,
+      "descripcion": "Uno de sus primeros shows acústicos importantes, donde se mostraron como una banda prometedora de la escena británica."
+    },
+    {
+      "lugar": "iHeartRadio Music Festival (Las Vegas)",
+      "año": 2014,
+      "descripcion": "Presentación de alto impacto visual con temas de Ghost Stories, incluyendo Magic y A Sky Full of Stars."
+    },
+    {
+      "lugar": "BBC Radio 1’s Big Weekend",
+      "año": "2014 / 2021",
+      "descripcion": "Versiones íntimas, acústicas y emocionales en festivales accesibles para fanáticos, con transmisiones en vivo."
+    },
+    {
+      "lugar": "Ciudad de México (Foro Sol)",
+      "año": 2022,
+      "descripcion": "Concierto masivo con participación del público en escenario, parte clave de su tour sustentable."
+    },
+    {
+      "lugar": "MTV Europe Music Awards (Rotterdam)",
+      "año": 2016,
+      "descripcion": "Presentación galardonada con Best Live Act, con escenografía inspirada en A Head Full of Dreams."
+    },
+    {
+      "lugar": "YouTube Livestream from Jordan",
+      "año": 2019,
+      "descripcion": "Lanzamiento en vivo de Everyday Life al amanecer y al atardecer desde Ammán, dividido en dos actos: Sunrise y Sunset."
+    },
+    {
+      "lugar": "Hollywood Bowl (Los Ángeles)",
+      "año": 2021,
+      "descripcion": "Concierto íntimo de presentación de Music of the Spheres, con toques visuales espaciales y narrativa conceptual."
+    }
+  ]
+}
